@@ -1,0 +1,16 @@
+.cardContent {
+    margin: 28px 16px;
+    background-color: white;
+    border-radius: 10px;
+    width: 343px;
+}
+
+@media only screen and (min-width: 1440px) {
+    .cardContent {
+        width: 600px;
+        Height: 450px;
+        display: flex;
+        align-items: center;
+        margin: 175px 420px;
+    }
+}

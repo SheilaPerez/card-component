@@ -1,0 +1,74 @@
+.descriptionContent {
+    margin: 0 23.65px;
+}
+.perfume {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #6C7289;
+}
+.title {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 32px;
+    color: #1C232B;
+}
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #6C7289;
+    margin-top: 0px;
+}
+.priceContent {
+    display: flex;
+    align-items: center;
+}
+.price {
+    color: #3D8168;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-right: 19px;
+    margin-top: 0px;
+}
+.backPrice {
+    text-decoration:line-through;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #6C7289;
+}
+
+@media only screen and (min-width: 1440px) {
+    .descriptionContent {
+       width: 300px;
+       Height: 450px;
+       margin: 0;
+    }
+
+    .perfume {
+        margin-top: 32px;
+        margin-left: 32px;
+    }
+    .title {
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 24px;
+    }
+    .description{
+        margin-left: 32px;
+        margin-right: 32px;
+        margin-bottom: 29px;
+    }
+    .priceContent{
+        margin-left: 32px;
+    }
+}
