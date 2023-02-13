@@ -16,6 +16,7 @@
     line-height: 32px;
     font-size: 32px;
     color: #1C232B;
+    margin-top: 20px;
 }
 .description {
     font-family: 'Montserrat', sans-serif;
@@ -24,6 +25,7 @@
     line-height: 23px;
     color: #6C7289;
     margin-top: 0px;
+    margin-bottom: 29px;
 }
 .priceContent {
     display: flex;
@@ -37,6 +39,7 @@
     line-height: 32px;
     margin-right: 19px;
     margin-top: 0px;
+    margin-bottom: 0;
 }
 .backPrice {
     text-decoration:line-through;
@@ -45,7 +48,7 @@
     font-size: 13px;
     line-height: 23px;
     color: #6C7289;
-    margin-top: 0;
+    margin: 0;
 }
 
 @media only screen and (min-width: 1440px) {
